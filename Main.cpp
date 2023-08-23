@@ -291,7 +291,7 @@ menu:
 
 }
 
-//读取游戏
+//读取游戏//
 void readFile() {
 	ifstream fileRole("SaveRole.dat", ios_base::in | ios_base::binary);
 	ifstream fileBag("SaveBag.dat", ios_base::in | ios_base::binary);
